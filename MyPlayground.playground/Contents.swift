@@ -67,4 +67,54 @@ print("total cost of 3 items is \(totalcost)")
 //----------------------------------------------------------
 
 
+//IF STATEMENTS
 
+var age = 20
+
+if age >= 18
+{
+    print ("You can play")
+}
+else
+{
+    print("You can't play!")
+}
+
+var name1 = "Chirag"
+
+if name1 == "Rob"
+{
+    print ("Hi " + name + " you can play")
+}
+else
+{
+    print ("Sorry " + name + " you can't play")
+}
+
+//AND
+if name == "Kirsten" && age >= 18
+{
+    print ("You can play")
+}
+
+//OR
+if name == "Rob" || name == "Kirsten"
+{
+    print("Welcome Rob")
+}
+else
+{
+    print ("Welcome Kirsten")
+}
+
+//Boolean
+var gender = true
+
+if gender
+{
+    print("Welcome")
+}
+else
+{
+    print("Go Away")
+}
