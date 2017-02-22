@@ -118,3 +118,35 @@ else
 {
     print("Go Away")
 }
+
+
+//----------------------
+
+for var i=2;i<=20; i = i+2
+{
+    print (i) //Output is (9 times)
+    
+}
+
+//---- LOOPING THROUGH ARRAY -----
+
+var arr = [ 3, 67, 89, 345]
+
+////HERE WE CAN'T CHANGE VALUE OF THE ARRAY ELEMENTS
+//for x in arr
+//{
+//    print (x)
+//}
+//
+////to access array index and value
+//for (index, value) in arr.enumerate()
+//{
+//    arr[index]  = value + 1
+//    print (arr[index])
+//}
+
+for (index, value) in arr.enumerate()
+{
+    arr[index] = value/2
+    print (arr[index])
+}
