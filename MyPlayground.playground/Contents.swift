@@ -150,3 +150,4 @@ for (index, value) in arr.enumerate()
     arr[index] = value/2
     print (arr[index])
 }
+
